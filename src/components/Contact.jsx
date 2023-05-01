@@ -30,19 +30,23 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
+//8ZEYGZV_01WGvL4qM
 
+// template_3nd5tlu
+
+// service_jexmxda
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        'service_jexmxda',
+        'template_3nd5tlu',
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Ravindra Choudhary",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "sirviravindra609@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        '8ZEYGZV_01WGvL4qM'
       )
       .then(
         () => {
