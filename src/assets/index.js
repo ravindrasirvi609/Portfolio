@@ -9,26 +9,36 @@ import close from "./close.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
+//import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
+//import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
+//import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import angular from "./tech/angular.png";
+import java from "./tech/java.png";
+import asp from "./tech/asp.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import quadwave from "./company/quadwave.png";
+import opf from "./company/opf.png";
+import ppc from "./company/ppc.png";
+import pixxcel from "./company/pixxcel.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import user from "./user.png";
+import studentadmin from "./studentadmin.png";
+import portfolio from "./portfolio.png";
 
 export {
   logo,
@@ -41,14 +51,14 @@ export {
   close,
   css,
   docker,
-  figma,
+  //figma,
   git,
   html,
   javascript,
-  mongodb,
+  //mongodb,
   nodejs,
   reactjs,
-  redux,
+  //redux,
   tailwind,
   typescript,
   threejs,
@@ -59,4 +69,14 @@ export {
   carrent,
   jobit,
   tripguide,
+  angular,
+  java,
+  asp,
+  quadwave,
+  opf,
+  pixxcel,
+  ppc,
+  user,
+  studentadmin,
+  portfolio,
 };

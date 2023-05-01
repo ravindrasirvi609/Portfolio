@@ -8,12 +8,12 @@ import {
   html,
   css,
   reactjs,
-  redux,
+  //redux,
   tailwind,
   nodejs,
-  mongodb,
+  //mongodb,
   git,
-  figma,
+  //figma,
   docker,
   meta,
   starbucks,
@@ -23,6 +23,16 @@ import {
   jobit,
   tripguide,
   threejs,
+  angular,
+  java,
+  asp,
+  quadwave,
+  opf,
+  pixxcel,
+  ppc,
+  user,
+  studentadmin,
+  portfolio,
 } from "../assets";
 
 export const navLinks = [
@@ -80,10 +90,23 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
+  ,
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "angular",
+    icon: angular,
   },
+  {
+    name: "java",
+    icon: java,
+  },
+  {
+    name: "asp",
+    icon: asp,
+  },
+  //  {
+  //     name: "Redux Toolkit",
+  //     icon: redux,
+  //   }, 
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -92,10 +115,10 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
   {
     name: "Three JS",
     icon: threejs,
@@ -104,10 +127,10 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
   {
     name: "docker",
     icon: docker,
@@ -118,8 +141,8 @@ const experiences = [
   {
     title: "Solution Developer",
     company_name: "Quadwave Consulting",
-    icon: starbucks,
-    iconBg: "#383E56",
+    icon: quadwave,
+    iconBg: "#E6DEDD",
     date: "April 2022 - April 2023",
     points: [
       "Developing and maintaining web applications using Angular and other related technologies.",
@@ -131,35 +154,35 @@ const experiences = [
   {
     title: "Web Developer",
     company_name: "Operant Pharmacy Federation",
-    icon: tesla,
+    icon: opf,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - March 2022",
     points: [
-      "Developing and maintaining web applications using Word-Press Site and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Proficient in HTML, CSS, and JavaScript",
+      "Experienced in WordPress development, including theme and plugin customization and maintenance.",
+      "Familiar with web development frameworks like Bootstrap, jQuery, and React.",
+      "Knowledgeable in web standards and best practices for accessibility, performance optimization, and security.",
     ],
   },
   {
     title: "Graphic Designer",
     company_name: "PIXCELL",
-    icon: shopify,
-    iconBg: "#383E56",
+    icon: pixxcel,
+    iconBg: "#E6DEDD",
     date: "Jan 2021 - March 2021",
     points: [
-     "Did Video Editing Works << Write more content here >>"
+      "Did Video Editing Works << Write more content here >>"
     ],
   },
   {
     title: "Social Media Manager",
     company_name: "Paras Polymer and chemicals",
-    icon: meta,
+    icon: ppc,
     iconBg: "#E6DEDD",
     date: "Jan 2020 - Jan 2021",
     points: [
       "Maintain All Social Media Hendale << Write more content here >>",
-      
+
     ],
   },
 ];
@@ -169,7 +192,7 @@ const testimonials = [
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
     name: "Xyz Abc",
-    designation: "CFO",
+    designation: "CPP",
     company: "Quadwave",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
@@ -177,7 +200,7 @@ const testimonials = [
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Rick does.",
     name: "Xyz Abc",
-    designation: "COO",
+    designation: "CPP!",
     company: "Quadwave",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
@@ -193,67 +216,67 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Users Management",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Developed a user management system using Angular, allowing administrators to create, edit, and delete user accounts, assign roles and permissions, and view user activity logs. Utilized Angular CLI, Reactive Forms, and Angular Material components for UI design, and interfaced with a RESTful API backend for data storage and retrieval. Implemented authentication and authorization using JSON Web Tokens (JWT) and NgRx store for state management",
     tags: [
       {
-        name: "react",
+        name: "angular",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "MySQL",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Bootstrap",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: user,
+    source_code_link: "https://github.com/ravindrasirvi609/user-managment",
   },
   {
-    name: "Job IT",
+    name: "Student Admission Portal",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Created a student admin portal using Angular, enabling faculty members to manage student records, including personal information, academic records, attendance, and performance evaluations. Utilized Angular CLI, Reactive Forms, and Angular Material components for UI design, and interfaced with a RESTful API backend for data storage and retrieval. Implemented authentication and authorization using JSON Web Tokens (JWT).",
     tags: [
       {
-        name: "react",
+        name: "Angular",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Rest APIs",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "ASP.NET Core",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: studentadmin,
+    source_code_link: "https://github.com/ravindrasirvi609/ASP.NetCoreCrud/tree/crudb",
   },
   {
-    name: "Trip Guide",
+    name: "Portfolio WebSite",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Developed a 3D portfolio website using React.js, Vite.js, and Three.js, showcasing my creative projects in an immersive and interactive manner. Utilized React Router for navigation and dynamic content rendering, Vite.js for speedy development and hot module reloading, and Three.js for 3D graphics and animations. Implemented responsive design and accessibility features to ensure optimal user experience across different devices and platforms.",
     tags: [
       {
-        name: "nextjs",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Vite",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Three",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: portfolio,
+    source_code_link: "https://github.com/ravindrasirvi609/Portfolio",
   },
 ];
 
